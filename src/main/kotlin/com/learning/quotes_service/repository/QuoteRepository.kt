@@ -1,6 +1,6 @@
 package com.learning.quotes_service.repository
 
 import com.learning.quotes_service.domain.Quote
-import org.springframework.data.repository.CrudRepository
+import org.springframework.data.repository.reactive.ReactiveCrudRepository
 
-interface QuoteRepository : CrudRepository<Quote, Int> {}
+interface QuoteRepository : ReactiveCrudRepository<Quote, Int> {}
